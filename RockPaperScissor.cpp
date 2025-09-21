@@ -6,6 +6,7 @@ char getComputerChoice();
 void showChoice(char choice);
 void chooseWinner(char player, char computer);
 int main(){
+    std::cout<<"Welcome to rock paper scissor game!\n";
     char player;
     char computer;
     player=getUserChoice();
